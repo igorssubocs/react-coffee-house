@@ -3,8 +3,8 @@ import logo from "../assets/logo.svg"
 
 export default function Navbar() {
   return (
-    <nav className="w-full">
-      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-4 text-dark font-semibold text-base mb-5">
+    <nav className="w-full max-w-[1440px]">
+      <div className="mx-auto flex justify-between items-center py-4 text-dark font-semibold text-base mb-5">
         <a href="#">
           <img src={logo} className="" alt="Coffee House Logo" />
         </a>

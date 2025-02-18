@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="grid justify-center items-center min-h-screen bg-background font-sans">
+    <div className="grid justify-center min-h-screen bg-background font-sans">
       <div className="w-full max-w-[1440px] px-10">
         <Navbar />
         <Hero />
@@ -20,5 +20,3 @@ export default function App() {
     </div>
   );
 }
-
-// 190 on 1h
