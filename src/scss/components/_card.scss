@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    gap: 1.25rem;
+    .card {
+        width: 310px;
+        max-height: 342px;
+        background-color: var(--color-content-bg);
+        border-radius: 1.25rem;
+        .card-image {
+            max-height: 210px;
+            border-top-left-radius: 1.25rem;
+            border-top-right-radius: 1.25rem;
+        }
+        .card-text {
+            max-height: 112px;
+            border-radius: 1.25rem;
+            display: grid;
+            gap: 0.5rem;
+            padding: 1.25rem 1.25rem 2.75rem 1.25rem;
+            background-color: var(--color-static-white);
+        }
+    }
+}

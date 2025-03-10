@@ -1,0 +1,28 @@
+.about {
+    background-color: var(--color-primary);
+    background-image: url('../assets/img/bg-about.png');
+    color: var(--color-dark);
+    padding: 3.75rem 5.125rem;
+    .container {
+        background: var(--color-static-white);
+        display: flex;
+        border-radius: 1.25rem;
+        .about-content {
+            display: block;
+            align-self: center;
+            padding: 6.25rem 10rem 6.25rem 3.75rem;
+            .slogan {
+                color: var(--color-primary);
+            }
+            .about-title {
+                margin: 1.25rem 0;
+            }
+        }
+        .about-image {
+            display: flex;
+            img {
+                border-radius: 1.25rem;
+            }
+        }
+    }
+}

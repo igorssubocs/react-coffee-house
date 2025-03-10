@@ -1,0 +1,30 @@
+.cta {
+    background-color: var(--color-primary);
+    background-image: url('../assets/img/bg-cta.png');
+    color: var(--color-static-white);
+    padding: 3.75rem 5.125rem;
+    display: flex;
+    justify-content: center;
+    min-height: 668px;
+    .container {
+        width: 426px;
+        text-align: center;
+        padding: 7.5rem 0;
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin: 1.25rem;
+            a.btn-link {
+                padding: 1.25rem 2rem;
+                background-color: var(--color-dark);
+                border-radius: 1.25rem;
+                color: var(--color-static-white);
+                &.btn-link:hover {
+                    transition: 1s ease-out;
+                    color: var(--color-dark);
+                    background-color: var(--color-static-white);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-static-white);
+    background-color: var(--color-primary);
+    background-image: url('../assets/img/bg-hero.png');
+    padding: 3.75rem 0;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    min-width: 524px;
+    background-position: center;
+    background-repeat: no-repeat;
+    .container {
+        width: 426px;
+        padding: 3.75rem 0;
+        .hero-headline {
+            margin: 0.75rem 0 0.75rem 0;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0.75rem;
+            a.btn-link {
+                padding: 1.25rem 2rem;
+                background-color: var(--color-dark);
+                border-radius: 1.25rem;
+                color: var(--color-static-white);
+                &.btn-link:hover {
+                    transition: 1s ease-out;
+                    color: var(--color-dark);
+                    background-color: var(--color-static-white);
+                }
+            }
+        }
+    }
+}
