@@ -18,14 +18,14 @@ export default function About() {
                 <div className="w-[660px] h-[590px] overflow-hidden rounded-[20px]">
                     <img 
                         src={about1}
-                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-in-out hover:scale-105 hover:opacity-90"
+                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-linear hover:scale-105 hover:opacity-90"
                         alt=""
                     />
                 </div>
                 <div className="w-[660px] h-[430px] overflow-hidden rounded-[20px]">
                     <img 
                         src={about2}
-                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-in-out hover:scale-105 hover:opacity-90"
+                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-linear hover:scale-105 hover:opacity-90"
                         alt=""
                     />
                 </div>
@@ -34,14 +34,14 @@ export default function About() {
                 <div className="w-[660px] h-[430px] overflow-hidden rounded-[20px]">
                     <img 
                         src={about3}
-                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-in-out hover:scale-105 hover:opacity-90"
+                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-linear hover:scale-105 hover:opacity-90"
                         alt=""
                     />
                 </div>
                 <div className="w-[660px] h-[590px] overflow-hidden rounded-[20px]">
                     <img 
                         src={about4}
-                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-in-out hover:scale-105 hover:opacity-90"
+                        className="w-full h-full object-cover rounded-[20px] transition-transform duration-[600ms] ease-linear hover:scale-105 hover:opacity-90"
                         alt=""
                     />
                 </div>
